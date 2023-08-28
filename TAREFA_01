@@ -1,0 +1,9 @@
+var nome = "mari"
+var idade = "18"
+var estadoCivilStr = "solteiro"
+
+var booleano = estadoCivilStr.toLowerCase() === "casado" ? true : false;
+
+console.log('nome: &{nome}');
+console.log('idade: &{idade}');
+console.log("Estado Civil: " + (booleano ? "Casado" : "Solteiro"));
